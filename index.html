@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_test">
+        <div class="form-group">
+          <p>Below is the list of warning signs of being negatively affected by stress:</p>
+          <input type="checkbox" name="warning-sign" value="sleep">Loss of sleep.<br>
+          <input type="checkbox" name="warning-sign" value="overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-sign" value="appetite">Poor appetite.<br>
+          <input type="checkbox" name="warning-sign" value="energy">Low energy.<br>
+          <input type="checkbox" name="warning-sign" value="Irritable">Irritable.<br>
+
+        </div>
+
+        <div class="form-group">
+          <p>Below is the list of health symptoms linked to high-stress:</p>
+          <input type="checkbox" name="health-symptoms" value="blood">High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="anxiety">Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="headaches">Headaches.<br>
+          <input type="checkbox" name="health-symptoms" value="pain">Neck and back pain.<br>
+          <input type="checkbox" name="health-symptoms" value="illness">Frequent illness.<br>
+
+        </div>
+
+        <div class="form-group">
+          <p>Below is the list of recommended coping methods to deal with stress.:</p>
+          <input type="checkbox" name="recommended-methods" value="meditate">Meditate.<br>
+          <input type="checkbox" name="recommended-methods" value="manage-time">Manage your time.<br>
+          <input type="checkbox" name="recommended-methods" value="cat">Pet a cat.<br>
+          <input type="checkbox" name="recommended-methods" value="relaxation">Relaxation Techniques.<br>
+          <input type="checkbox" name="recommended-methods" value="massage">Massage Therapy.<br>
+        </div>
+
+       <button type="submit" class="btn btn-primary btn-lg">Recommend!!!</button>
+      </form>
+
+      <br>
+
+      <span id="bad">
+        <p><b>You need to check following web-pages: <a href="#">How to manage your stress</a>. They will be helpful for you!</b></p>
+      </span>
+      <br>
+      <span id="neutral">
+        <p><b>You need to see doctor. Take care of yourself!</b></p>
+      </span>
+      <br>
+      <span id="good">
+        <p><b>You are doing good</b></p>
+      </span>
+
+    </div>
+  </body>
+</html>
